@@ -1,0 +1,90 @@
+body {
+  background-color: #d3d0d0;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.col-4 {
+  margin-bottom: 15px;
+}
+.card-body {
+  height: 315px;
+  text-align: justify;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  width: 24rem !important;
+}
+.btn {
+  color: white !important;
+  width: fit-content;
+}
+.like {
+  background-color: #0dcaf0 !important;
+}
+.like:hover {
+  background-color: #0baccc !important;
+}
+.dislike {
+  background-color: #dc3545 !important;
+}
+.dislike:hover {
+  background-color: #b12a38 !important;
+}
+
+nav a {
+  color: white !important;
+}
+nav ul a {
+  color: rgb(173, 173, 173) !important;
+  transition: 0.6s;
+}
+nav ul a:hover {
+  color: white !important;
+}
+
+.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+nav i {
+  padding: 5px;
+}
+
+nav,
+footer {
+  background-color: #7450d6;
+  color: white;
+}
+footer {
+  padding: 15px;
+}
+footer p {
+  margin: 0;
+}
+
+/* Form */
+
+form {
+  padding-bottom: 40px;
+}
+
+form .btn {
+  margin: 20px 0;
+  background-color: #7450d6 !important ;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+form textarea {
+  height: 135px;
+  resize: none;
+}
