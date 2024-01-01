@@ -96,3 +96,12 @@ form textarea {
   height: fit-content;
   margin: auto;
 }
+
+.carousel-inner img{
+  
+  object-fit: cover;
+}
+.carousel-inner{
+  max-height: 35rem;
+  overflow: hidden;
+}
