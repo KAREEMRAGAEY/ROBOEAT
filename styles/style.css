@@ -20,7 +20,7 @@ p {
 }
 
 .card {
-  width: 24rem !important;
+  width: 26rem !important;
 }
 .btn {
   color: white !important;
@@ -87,4 +87,12 @@ form input {
 form textarea {
   height: 135px;
   resize: none;
+}
+.card button {
+  display: flex;
+  gap: 5px;
+}
+.card button i {
+  height: fit-content;
+  margin: auto;
 }

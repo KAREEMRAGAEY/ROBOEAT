@@ -24,11 +24,13 @@
     />
 
     <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
     ></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./scipt.js" ></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -48,13 +50,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="./About Us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Contact Us</a>
+              <a class="nav-link" href="./contactUs.html">Contact Us</a>
             </li>
           </ul>
           <div class="d-flex" role="search">
@@ -131,7 +133,7 @@
                   your meal with four mini donuts tossed in cinnamon sugar and
                   served with English toffee dipping sauce.
                 </p>
-                <button type="button" class="btn like" onclick="toggleLike(this)">
+                <button type="button" class="btn like">
                   <i class="fa-solid fa-thumbs-up"></i>
                   <span>Like</span>
                 </button>
@@ -154,7 +156,7 @@
                   in-house baked beans or coleslaw and seasoned fries. *Cannot
                   guarantee steak doneness for take-out.
                 </p>
-                <button type="button" class="btn dislike" onclick="toggleLike(this)">
+                <button type="button" class="btn dislike">
                   <i class="fa-solid fa-thumbs-down"></i>
                   <span>dislike</span>
                 </button>
@@ -178,7 +180,7 @@
                   your meal with four mini donuts tossed in cinnamon sugar and
                   served with English toffee dipping sauce.
                 </p>
-                <button type="button" class="btn like" onclick="toggleLike(this)">
+                <button type="button" class="btn like">
                   <i class="fa-solid fa-thumbs-up"></i>
                   <span>Like</span>
                 </button>
@@ -202,7 +204,7 @@
                   your meal with four mini donuts tossed in cinnamon sugar and
                   served with English toffee dipping sauce.
                 </p>
-                <button type="button" class="btn like" onclick="toggleLike(this)">
+                <button type="button" class="btn like">
                   <i class="fa-solid fa-thumbs-up"></i>
                   <span>Like</span>
                 </button>
@@ -225,7 +227,7 @@
                   in-house baked beans or coleslaw and seasoned fries. *Cannot
                   guarantee steak doneness for take-out.
                 </p>
-                <button type="button" class="btn like" onclick="toggleLike(this)">
+                <button type="button" class="btn like">
                   <i class="fa-solid fa-thumbs-up"></i>
                   <span>Like</span>
                 </button>
@@ -249,7 +251,7 @@
                   your meal with four mini donuts tossed in cinnamon sugar and
                   served with English toffee dipping sauce.
                 </p>
-                <button type="button" class="btn dislike" onclick="toggleLike(this)">
+                <button type="button" class="btn dislike">
                   <i class="fa-solid fa-thumbs-down"></i>
                   <span>dislike</span>
                 </button>
@@ -258,20 +260,6 @@
           </div>
         </div>
       </div>
-<script>
-  function toggleLike(button) {
-    const likeIcon = button.querySelector('.fa-thumbs-up');
-    const likeText = button.querySelector('span');
-
-    // Toggle the 'liked' class after a small delay to allow for the transition effect
-    setTimeout(() => {
-      button.classList.toggle('dislike');
-      likeIcon.classList.toggle('dislike');
-      likeText.textContent = button.classList.contains('liked') ? 'Liked' : 'Like';
-    }, 50);
-  }
-</script>
-
     </main>
     <footer>
       <p class="text-center">© 2021 Robogarden Inc.</p>
