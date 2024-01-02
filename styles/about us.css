@@ -17,9 +17,10 @@ header {
     color: white;
 }
 main{
-    background-image: url(https://c0.wallpaperflare.com/preview/565/228/846/japanese-japan-restaurant-culture.jpg);
+    background-image: url(https://image.lexica.art/full_jpg/abb82a86-473e-4eee-bbb5-a15095a2eebf);
     background-repeat: no-repeat;
     background-size:100% ;
+    background-position: center;
     overflow: hidden;
 }
 main .container{
