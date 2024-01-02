@@ -9,6 +9,3 @@ $(".card button").each(function(_, el) {
         }
     });
 });
-    
-      
-    

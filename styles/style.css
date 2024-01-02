@@ -105,3 +105,19 @@ form textarea {
   max-height: 35rem;
   overflow: hidden;
 }
+.success-msg {
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #c5ffc5;
+}
+.err-msg {
+  border-radius: 30px;
+
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 148, 148);
+}
+.err-msg span {
+  color: black;
+}
