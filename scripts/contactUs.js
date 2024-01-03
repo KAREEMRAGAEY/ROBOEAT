@@ -11,6 +11,9 @@ form.addEventListener("submit", (e) => {
     inputs.forEach(n => {
         if (!n.value){
             errMsg.classList.remove("d-none");
+            if(!successMsg.classList.contains("d-none")){
+                successMsg.classList.add("d-none");
+            }
         }
         if(n.value){
             successMsg.classList.remove("d-none");
